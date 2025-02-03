@@ -1,5 +1,4 @@
 import Cards from "../components/card/Card";
-import MenuLink from "../components/menuLink/MenuLink";
 
 export default function Home() {
     return(

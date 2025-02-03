@@ -1,16 +1,4 @@
-import Card from "../components/card/Card";
-import Image from "next/image";
 import CardList from "../components/card/CardList";
-
-interface Props {
-    src: string;
-    alt: string;
-    title: string;
-    text: string;
-    text1?: string;
-    text2?: string;
-    text3?: string;
-}
 
 export default function Personagens() {
     return (

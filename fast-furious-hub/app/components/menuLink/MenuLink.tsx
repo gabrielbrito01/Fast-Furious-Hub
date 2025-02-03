@@ -25,7 +25,7 @@ export default function MenuLink() {
             <Link href="/personagens">Personagens</Link>
           </MenubarItem>
           <MenubarItem className="text-gray-800 text-sm hover:bg-gray-100 px-3 py-2 rounded-md transition duration-200">
-            <Link href="/ordem-de-filmes">Ordem de Filmes</Link>
+            <Link href="/filmes">Ordem de Filmes</Link>
           </MenubarItem>
           <MenubarSeparator className="border-gray-200" />
           <MenubarItem className="text-gray-800 text-sm hover:bg-gray-100 px-3 py-2 rounded-md transition duration-200">
