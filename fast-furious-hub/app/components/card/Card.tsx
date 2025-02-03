@@ -1,31 +1,24 @@
-// src/components/Card/Card.tsx
-import React from 'react';
-import styles from './Card.module.scss';
+import { Card, CardDescription, CardTitle } from "../ui/card";
+import Image from "next/image";
 
-// Definindo a interface para o personagem
-interface Personagem {
-  id: number;
-  name: string;
-  status: string;
-  location: {
-    name: string;
-  };
-  image: string;
+
+interface Props {
+  src : string;
+  alt : string;
+  title : string;
+  text : string;
+  
 }
 
-interface CardProps {
-  personagem: Personagem; // Especificando que a propriedade personagem é do tipo Personagem
-}
 
-const Card: React.FC<CardProps> = ({ personagem }) => {
+export default function Cards({src , alt , title , text}: Props){
   return (
-    <div className={styles.card}>
-      <img src={personagem.image} alt={personagem.name} className={styles.img} />
-      <h2>{personagem.name}</h2>
-      <p>Status: {personagem.status}</p>
-      <p>Última Localização: {personagem.location.name}</p>
-    </div>
+    <Card className="p-4 shadow-lg">
+      <div className="row-1 w-100 h-100 justify-center">
+        <Image src={src}  alt={alt} className="object-cover" width={500} height={500} />
+        <CardTitle className="mt-4 flex items-center justify-center">{title}</CardTitle>
+      <CardDescription className="p-5">{text}</CardDescription>
+      </div>
+    </Card>
   );
-};
-
-export default Card;
+}
