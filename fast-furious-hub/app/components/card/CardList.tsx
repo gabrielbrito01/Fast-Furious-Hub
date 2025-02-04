@@ -6,9 +6,9 @@ interface Props {
   alt: string;
   title: string;
   text: string;
-  text1: string;
-  text2: string;
-  text3: string;
+  text1?: string;
+  text2?: string;
+  text3?: string;
 }
 
 export default function CardList({

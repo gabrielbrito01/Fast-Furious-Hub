@@ -9,7 +9,7 @@ import {
   export default function CarouselFilmes() {
     return (
       <Carousel className="w-full max-w-2xl mx-auto">
-        <CarouselContent className="flex gap-4">
+        <CarouselContent className="flex gap-4 p-2.5">
           <CarouselItem className="flex flex-col justify-center items-center text-center">
             <img className="w-64 h-96 rounded-lg shadow-lg" src="/velozes1.png" alt="Velozes e Furiosos 1 (2001)" />
             <p className="mt-2 text-lg font-semibold">Velozes e Furiosos 1 (2001)</p>
