@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 export default function useFilmes(url: string) {
-  const [filmes, setFilmes] = useState<any[]>([]);
+  const [filmes, setFilmes] = useState<string[]>([]);
 
   useEffect(() => {
     fetch(url)
