@@ -1,0 +1,26 @@
+{
+    "title": "Velozes e Furiosos",
+    "description": "O mundo de Velozes e Furiosos",
+    "tituloDois": "Velozes e Furiosos",
+    "subtitulo": "Explore os filmes da saga Velozes e Furiosos!",
+    "fallbackText": "Carregando cards...",
+    "card1": {
+      "src": "/dogge.png",
+      "alt": "Dodge Charger",
+      "title": "Dodge Charger R/T 1970",
+      "text": "Um dos carros mais icônicos da franquia, o Dodge Charger de 1970 pertence a Dominic Toretto. Com um motor superalimentado e um design imponente, ele representa a força e a velocidade extrema nas corridas de rua."
+    },
+    "card2": {
+      "src": "/skyline.png",
+      "alt": "Nissan GTR Skyline",
+      "title": "Nissan GTR Skyline R34",
+      "text": "O lendário Nissan Skyline R34 é o carro favorito de Brian O'Conner. Com sua performance incrível e modificações para corridas, esse modelo azul se tornou um dos mais amados pelos fãs da saga e do automobilismo."
+    },
+    "card3": {
+      "src": "/mazda.png",
+      "alt": "Mazda RX-7",
+      "title": "Mazda RX-7",
+      "text": "Dirigido por Han Lue, o Mazda RX-7 é um esportivo japonês com um motor rotativo único e um design aerodinâmico impressionante. Seu estilo arrojado e pintura marcante fazem dele um destaque em qualquer corrida de drift."
+    }
+  }
+  
